@@ -12,6 +12,35 @@ body{
 	font-family: 'Yatra One', cursive;
 }
 
+.social {
+	position: fixed;
+	left: 0;
+	top: 100px;
+	z-index: 2000; /*lo dejo asi para que quede fijo al mover la pagina*/
+}
+
+.social ul {
+	list-style: none;
+}
+.social ul li a {
+	display: inline-block;
+	color:#fff;  /*blanco fuente iconos */
+	background: #000;
+	padding: 10px 15px;
+	text-decoration: none;
+
+}
+
+.social ul li .icon-facebook {background:#3b5998; } /*color red social face */
+.social ul li .icon-github	 {background:#000; } /*color de git*/
+.social ul li .icon-google	 {background:#d95232;} /*color de google*/
+.social ul li .icon-twitter	 {background:#00abf0; } /*color twitter, etc*/
+
+
+.social ul li a:hover {
+	padding: 10px 30px; /*agrandar icono al pasar por el */
+}
+
 section{
 
 }
@@ -88,6 +117,9 @@ section{
 	color: #6FDF36;
 	text-align: justify;
 }
+
+
+
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {

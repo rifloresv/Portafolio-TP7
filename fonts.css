@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?4as8tp');
+  src:  url('fonts/icomoon.eot?4as8tp#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?4as8tp') format('truetype'),
+    url('fonts/icomoon.woff?4as8tp') format('woff'),
+    url('fonts/icomoon.svg?4as8tp#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook-with-circle:before {
+  content: "\e900";
+}
+.icon-facebook:before {
+  content: "\e901";
+}
+.icon-flickr-with-circle:before {
+  content: "\e902";
+}
+.icon-flickr:before {
+  content: "\e903";
+}
+.icon-github-with-circle:before {
+  content: "\e904";
+}
+.icon-github:before {
+  content: "\e905";
+}
+.icon-google-with-circle:before {
+  content: "\e906";
+}
+.icon-google:before {
+  content: "\e907";
+}
+.icon-instagram-with-circle:before {
+  content: "\e908";
+}
+.icon-instagram:before {
+  content: "\e909";
+}
+.icon-lastfm-with-circle:before {
+  content: "\e90a";
+}
+.icon-lastfm:before {
+  content: "\e90b";
+}
+.icon-linkedin-with-circle:before {
+  content: "\e90c";
+}
+.icon-linkedin:before {
+  content: "\e90d";
+}
+.icon-pinterest-with-circle:before {
+  content: "\e90e";
+}
+.icon-pinterest:before {
+  content: "\e90f";
+}
+.icon-rdio:before {
+  content: "\e910";
+}
+.icon-stumbleupon-with-circle:before {
+  content: "\e911";
+}
+.icon-stumbleupon:before {
+  content: "\e912";
+}
+.icon-tumblr-with-circle:before {
+  content: "\e913";
+}
+.icon-tumblr:before {
+  content: "\e914";
+}
+.icon-twitter-with-circle:before {
+  content: "\e915";
+}
+.icon-twitter:before {
+  content: "\e916";
+}
+.icon-vimeo-with-circle:before {
+  content: "\e917";
+}
+.icon-vimeo:before {
+  content: "\e918";
+}
+.icon-youtube-with-circle:before {
+  content: "\e919";
+}
+.icon-youtube:before {
+  content: "\e91a";
+}
+
